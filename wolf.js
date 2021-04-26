@@ -107,9 +107,9 @@ client.elevation = message => {
 client.login(config.token)
 
 
-//------------------------ kakwolf Random Gif Pp -----------------------//
-//------------------------ kakwolf Random Gif Pp -----------------------//
-//------------------------ kakwolf Random Gif Pp -----------------------//
+//------------------------ HaaaMa Random Gif -----------------------//
+//------------------------ HaaaMa Random Gif -----------------------//
+//------------------------ HaaaMa Random Gif -----------------------//
 
 client.on("userUpdate", async(Revenge, NYKS) => {
   
@@ -128,6 +128,6 @@ Revenge.send(new Discord.Attachment(RevengePP))
 })
 })
 
-//------------------------ kakwolf Random Gif Pp -----------------------//
-//------------------------ kakwolf Random Gif Pp -----------------------//
-//------------------------ kakwolf Random Gif Pp -----------------------//
+//------------------------ HaaaMa Random Gif -----------------------//
+//------------------------ HaaaMa Random Gif -----------------------//
+//------------------------ HaaaMa Random Gif -----------------------//

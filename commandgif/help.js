@@ -19,7 +19,7 @@ const embed = new Discord.MessageEmbed()
 **Gifs Commands**
 \`boy\` - \`girl\` - \`baby\`
 \`neon\` - \`sad\` - \`smoking\`
-\`animal\` - \`anime\` - \`cuople\`
+\`animal\` - \`anime\` - \`couple\`
 \`emoji\`
 
 **Links**

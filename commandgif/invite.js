@@ -9,7 +9,7 @@ const embed = new Discord.MessageEmbed()
     
 .setColor(`RANDOM`)
 .setThumbnail(message.author.avatarURL({dynamic: "true"}))
-.setTitle(`**invite**`)
+.setTitle(`**invite Ragif Bot**`)
 .setDescription(`[Click here](https://discord.com/api/oauth2/authorize?client_id=814607957349629962&permissions=8&scope=bot)`)
 .setFooter(`Requested by ${message.author.username}#${message.author.discriminator}`, message.member.user.displayAvatarURL({ dynamic: true }))    
 message.channel.send({embed});
@@ -18,12 +18,12 @@ message.channel.send({embed});
 exports.conf = {
 enabled: true,
 guildOnly: false,
-aliases: ['invite'],
+aliases: ['inv'],
 permLevel: 0
 };
 
 exports.help = {
-  name: 'invite',
+  name: 'inv',
   description: 'rexuss',
-  usage: 'invite'
+  usage: 'inv'
 };

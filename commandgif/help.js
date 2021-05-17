@@ -14,7 +14,7 @@ const embed = new Discord.MessageEmbed()
 .setDescription(`
 **Info Commands**
 \`avatar\` - \`about\` - \`ping\`
-\`invite\`
+\`inv\`
 
 **Gifs Commands**
 \`boy\` - \`girl\` - \`baby\`

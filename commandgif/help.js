@@ -14,17 +14,17 @@ const embed = new Discord.MessageEmbed()
 .setAuthor(`Gif Help`)
 .setDescription(`
 **Info Commands** (*)
-\`*avatar\` - \`*about\` - \`*ping\`
-\`*inv\` - \`*clear\` - \`*say\`
+\`avatar\` - \`about\` - \`ping\`
+\`inv\` - \`clear\` - \`say\`
 
 **Gifs Commands**
-\`*boy\` - \`*girl\` - \`*baby\`
-\`*neon\` - \`*sad\` - \`*smoking\`
-\`*animal\` - \`*anime\` - \`*couple\`
-\`*emoji\`
+\`boy\` - \`girl\` - \`baby\`
+\`neon\` - \`sad\` - \`smoking\`
+\`animal\` - \`anime\` - \`couple\`
+\`emoji\`
 
 **Text Commands**
-\`*tEng\` - \`*tArab\` - \`*tKurd\`,
+\`tEng\` - \`tArab\` - \`tKurd\`,
 
 **Links**
 **[Invite](https://discord.com/api/oauth2/authorize?client_id=814607957349629962&permissions=8&scope=bot) - [Server Support](https://discord.gg/jy6zvqV2V6)** **-** [Vote](https://top.gg/bot/814607957349629962)`)

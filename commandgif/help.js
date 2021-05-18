@@ -13,9 +13,9 @@ const embed = new Discord.MessageEmbed()
 .setImage(`https://media.discordapp.net/attachments/790836700561670145/838461806137442365/image0.gif`)
 .setAuthor(`Gif Help`)
 .setDescription(`
-**Info Commands**
-\`*avatar\` - \`*about\` - \`*ping\`
-\`*inv\` - \`*clear\` - \`*say\`
+**Info Commands** (*)
+\`avatar\` - \`about\` - \`ping\`
+\`inv\` - \`clear\` - \`say\`
 
 **Gifs Commands**
 \`boy\` - \`girl\` - \`baby\`

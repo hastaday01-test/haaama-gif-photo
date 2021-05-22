@@ -5,33 +5,47 @@ var config = require('../config.json');
 
 exports.run = async (client, message, args, msg) => {
 
-const embed = new Discord.MessageEmbed()
-    
-.setColor('#d60000') 
-.setThumbnail(message.author.avatarURL({dynamic: "true"}))
-// .setFooter(`${message.author.username}#${message.author.discriminator}`, message.member.user.displayAvatarURL({ dynamic: true }))
-.setImage(`https://media.discordapp.net/attachments/790836700561670145/845056457162489876/image0.gif`)
-.setAuthor(`Gif Help`)
-.setDescription(`
-**Info Commands** (*)
-\`server\` - \`avatar\` - \`about\` 
-\`ping\` - \`inv\` - \`clear\`
-\`say\`
+   message.delete();
+    let sizes = [
+      "kurd",
+      "roshek",
+      "HaaMa",
+      "juana",
+      "hastaday",
+      "bot dalem law bandana",
+      "dayday",
+      "8=======D",
+      "8========D",
+      "8=========D",
+      "8D",
+      "D",
+      "hama",
+      "esta to lagal ke D",
+      "poli6",
+      "wa arOm chetr nambenawa",
+      "Rozhek darom",
+      "Dndbs",
+      "hdhwhd"
+    ];
 
-**Gifs Commands**
-\`boy\` - \`girl\` - \`baby\`
-\`neon\` - \`sad\` - \`smoking\`
-\`animal\` - \`anime\` - \`couple\`
-\`emoji\`
+    let Member =
+      message.mentions.members.first() ||
+      message.guild.members.cache.get(args[0]) ||
+      message.member;
 
-**Text Commands**
-\`tEng\` - \`tArab\` - \`tKurd\`,
+    let Result = sizes[Math.floor(Math.random() * sizes.length)];
 
-**Links**
-**[Invite](https://discord.com/api/oauth2/authorize?client_id=814607957349629962&permissions=8&scope=bot) - [Server Support](https://discord.gg/jy6zvqV2V6)** **-** [Vote](https://top.gg/bot/814607957349629962)`)
-    
-message.channel.send({embed});
-}
+    let embed = new MessageEmbed()
+      .setColor(Color)
+      .setTitle(``)
+      .setDescription(`**\n${Result}**`)
+   // .setFooter(`Requested by ${message.author.username}`)
+  //    .setTimestamp();
+    message.channel.send(embed);
+
+    //End
+  }
+};
 
 exports.conf = {
 enabled: true,

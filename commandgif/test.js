@@ -36,7 +36,7 @@ exports.run = async (client, message, args, msg) => {
     let Result = sizes[Math.floor(Math.random() * sizes.length)];
 
     let embed = new MessageEmbed()
-      .setColor(Color)
+ //     .setColor(Color)
       .setTitle(``)
       .setDescription(`**\n${Result}**`)
    // .setFooter(`Requested by ${message.author.username}`)

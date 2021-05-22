@@ -1,28 +1,9 @@
-const Discord = require("discord.js");
-const { MessageEmbed } = require("discord.js");
-const { Color } = require("../../config.js");
+const Discord = require('discord.js');
+const client = new Discord.Client();
+const moment = require('moment');
+var config = require('../config.json');
 
-exports.conf = {
-
-  enabled: true,
-
-  guildOnly: false,
-
-  aliases: ['gif-animal','animal-gif','gifanimal','animalgif'],
-
-  permLevel: 0
-
-};
-
-exports.help = {
-
-  name: 'text',
-
-  description: 'rexuss',
-
-  usage: 'text'
-
-};
+exports.run = async (client, message, args, msg) => {
 
     //Start
     message.delete();

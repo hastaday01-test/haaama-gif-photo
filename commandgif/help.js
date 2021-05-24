@@ -27,6 +27,11 @@ const embed = new Discord.MessageEmbed()
 **Text Commands**
 \`tEng\` - \`tArab\` - \`tKurd\`,
 
+**Music Commands**
+\`play\` -  \`skip\` - \`np\` 
+\`pasue\` - \`resume\` - \`stop\`
+\`queue\`
+
 **Links**
 **[Invite](https://discord.com/api/oauth2/authorize?client_id=814607957349629962&permissions=8&scope=bot) - [Server Support](https://discord.gg/jy6zvqV2V6)** **-** [Vote](https://top.gg/bot/814607957349629962)`)
     

@@ -25,7 +25,7 @@ const embed = new Discord.MessageEmbed()
 \`emoji\`
 
 **Text Commands**
-\`eng\` - \`aran\` - \`kurd\` \`perdian\`
+\`eng\` - \`aran\` - \`kurd\` - \`perdian\`
 
 **Music Commands**
 \`play\` -  \`skip\` - \`np\` 

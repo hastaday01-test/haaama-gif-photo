@@ -18,9 +18,9 @@ const embed = new Discord.MessageEmbed()
 \`ping\` - \`inv\` - \`say\`
 
 **Moderation Commands**
-\`ban\` - \`unban\` - \`kick\`
+\`ban\` - \`unban\` - \`kick\` - \`clear\`
 \`mute\` - \`unmute\` - \`warn\`
-\`removeRole\` - \`addRole\` - \`clear\`
+\`removeRole\` - \`addRole\`
 \`afk\` - \`sug\` - \`report\`
 
 **Gifs Commands**

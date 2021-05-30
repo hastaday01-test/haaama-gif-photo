@@ -40,7 +40,7 @@ const embed = new Discord.MessageEmbed()
 
 **Econome Commands**
 \`daily\` - \`balance\` - \`send\`
-\`top` - \`sm(1-9999)\` 
+\`top\` - \`sm(1-99999)\` 
 
 
 **Links**

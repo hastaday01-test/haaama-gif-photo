@@ -30,7 +30,7 @@ const embed = new Discord.MessageEmbed()
 \`emoji\`
 
 **Text Commands**
-\`eng\` - \`aran\` - \`kurd\`
+\`eng\` - \`arab\` - \`kurd\`
 \`persian\` - \`turk\`
 
 **Music Commands**

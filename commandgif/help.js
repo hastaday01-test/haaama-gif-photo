@@ -15,8 +15,13 @@ const embed = new Discord.MessageEmbed()
 .setDescription(`
 **Info Commands** (*)
 \`server\` - \`avatar\` - \`about\` 
-\`ping\` - \`inv\` - \`clear\`
-\`say\`
+\`ping\` - \`inv\` - \`say\`
+
+**Moderation Commands**
+\`ban\` - \`unban\` - \`kick\`
+\`mute\` - \`unmute\` - \`warn\`
+\`removeRole\` - \`addRole\` - \`clear\`
+\`afk\` - \`sug\` - \`report\`
 
 **Gifs Commands**
 \`boy\` - \`girl\` - \`baby\`
@@ -25,12 +30,18 @@ const embed = new Discord.MessageEmbed()
 \`emoji\`
 
 **Text Commands**
-\`eng\` - \`aran\` - \`kurd\` - \`persian\`
+\`eng\` - \`aran\` - \`kurd\`
+\`persian\` - \`turk\`
 
 **Music Commands**
 \`play\` -  \`skip\` - \`np\` 
 \`pasue\` - \`resume\` - \`stop\`
 \`queue\`
+
+**Econome Commands**
+\`daily\` - \`balance\` - \`send\`
+\`top` - \`sm (1-9999)\` 
+
 
 **Links**
 **[Invite](https://discord.com/api/oauth2/authorize?client_id=814607957349629962&permissions=8&scope=bot) - [Server Support](https://discord.gg/jy6zvqV2V6)** **-** [Vote](https://top.gg/bot/814607957349629962)`)

@@ -7,10 +7,10 @@ exports.run = async (client, message, args, msg) => {
 
 const embed = new Discord.MessageEmbed()
     
-.setColor('#d60000') 
+.setColor('#ef0000') 
 .setThumbnail(message.author.avatarURL({dynamic: "true"}))
 // .setFooter(`${message.author.username}#${message.author.discriminator}`, message.member.user.displayAvatarURL({ dynamic: true }))
-.setImage(`https://media.discordapp.net/attachments/790836700561670145/845056457162489876/image0.gif`)
+.setImage(`https://media.discordapp.net/attachments/790836700561670145/838461806137442365/image0.gif`)
 .setAuthor(`Gif Help`)
 .setDescription(`
 **Info Commands** (*)

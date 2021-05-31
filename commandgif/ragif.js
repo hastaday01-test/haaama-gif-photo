@@ -1,34 +1,34 @@
-const Discord = require('discord.js');
-const client = new Discord.Client();
-const moment = require('moment');
-var config = require('../config.json');
+client.on(`message`, async (message) => {
+  if (message.author.bot) return;
+  
+  //getting prefix 
+  let prefix = await db.get(`prefix_${message.guild.id}`)
+  //if not prefix set it to standard prefix in the config.json file
+  if(prefix === null) prefix = PREFIX;
 
-exports.run = async (client, message, args, msg) => {
-
-const embed = new Discord.MessageEmbed()
-    
-.setColor('#RANDOM') 
-.setThumbnail(message.author.avatarURL({dynamic: "true"}))
-// .setFooter(`${message.author.username}#${message.author.discriminator}`, message.member.user.displayAvatarURL({ dynamic: true }))
-/// .setImage(`https://media.discordapp.net/attachments/790836700561670145/845056457162489876/image0.gif`)
-.setAuthor(`RaGif Command`)
-.setDescription(`
-**RaGif Bot**
-My Preifx In this Server (*)
+  //information message when the bot has been tagged
+  if(message.content.includes(client.user.id)) {
+    message.reply(new Discord.MessageEmbed()
+                  .setColor("#146DF6")
+                 .setDescription(`
+Support Server - [Click Me](https://discord.gg/VWuQfQfjc9)
+Bot Link - [Click Me](https://discord.com/api/oauth2/authorize?client_id=814608707412295780&permissions=8&scope=bot)
 `)
-    
-message.channel.send({embed});
-}
-
-exports.conf = {
-enabled: true,
-guildOnly: false,
-aliases: ['<@!814607957349629962>'],
-permLevel: 0
-};
-
-exports.help = {
-  name: '<@!814607957349629962>',
-  description: 'rexuss',
-  usage: '<@!814607957349629962>'
-};
+                  .setTitle(`
+Join a voice channel and \`${PREFIX}play\` a song.
+Type \`${PREFIX}help\` for the list of commands.`));
+  } 
+  //An embed announcement for everyone but no one knows so fine ^w^
+  if(message.content.startsWith(`${prefix}embed`)){
+    //define saymsg
+    const saymsg = message.content.slice(Number(prefix.length) + 5)
+    //define embed
+    const embed = new Discord.MessageEmbed()
+    .setColor("RANDOM")
+    .setDescription(remix)
+    .setFooter("remix", client.user.displayAvatarURL())
+    //delete the Command
+    message.delete({timeout: 300})
+    //send the Message
+    message.channel.send(embed)
+  }

@@ -1,10 +1,10 @@
 {
-  "name": "haaama",
+  "name": "wolf",
   "version": "0.0.1",
-  "description": "bot gif v12 by haaama",
-  "main": "haaama.js",
+  "description": "bot gif v12 by wolf",
+  "main": "wolf.js",
   "scripts": {
-    "start": "node haaama.js"
+    "start": "node wolf.js"
   },
   "dependencies": {
     "express": "^4.17.1",

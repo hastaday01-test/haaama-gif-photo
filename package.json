@@ -1,7 +1,7 @@
 {
   "name": "wolf",
   "version": "0.0.1",
-  "description": "bot gif v12 by wolf",
+  "description": "bot gif v12 by haaama",
   "main": "haaama.js",
   "scripts": {
     "start": "node haaama.js"

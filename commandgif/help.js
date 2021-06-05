@@ -27,7 +27,7 @@ const embed = new Discord.MessageEmbed()
 \`boy\` - \`girl\` - \`baby\`
 \`neon\` - \`sad\` - \`smoking\`
 \`animal\` - \`anime\` - \`couple\`
-\`emoji\` - \`bille\`
+\`emoji\` - \`bille\` - \`Aesthetic\`
 
 **Text Commands**
 \`eng\` - \`arab\` - \`kurd\`

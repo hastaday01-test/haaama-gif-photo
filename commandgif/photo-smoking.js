@@ -23,7 +23,7 @@ exports.conf = {
 
   guildOnly: false,
 
-  aliases: ['Psmoking','pSmoking','smokingp','photo-smoking'],
+  aliases: ['Psmoking','psmoking','smokingp','photo-smoking'],
 
   permLevel: 0
 

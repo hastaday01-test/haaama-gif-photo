@@ -8,7 +8,7 @@ let result = Math.floor((Math.random() * replies.length));
 
 let gifembed = new Discord.MessageEmbed()
 
-.setTitle("Asethetic")
+.setTitle("Aesthetic")
 
 .setColor("RANDOM")
 
@@ -26,7 +26,7 @@ exports.conf = {
 
   guildOnly: false,
 
-  aliases: ['asethetic','Asethetic','att','Att'],
+  aliases: ['asethetic','aesthetic','Asethetic','Aesthetic'],
 
   permLevel: 0
 

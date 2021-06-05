@@ -23,7 +23,7 @@ exports.conf = {
 
   guildOnly: false,
 
-  aliases: ['photo-girl','girl-photo','pgirl','girlp'],
+  aliases: ['photo-girl','girl-photo','pgirl','Pgirl'],
 
   permLevel: 0
 

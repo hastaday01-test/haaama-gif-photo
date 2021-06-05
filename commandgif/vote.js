@@ -8,11 +8,11 @@ exports.run = async (client, message, args, msg) => {
 
 const embed = new Discord.MessageEmbed()
     
-.setColor('#ef0000') 
+.setColor('#RANDOM') 
 .setThumbnail(message.author.avatarURL({dynamic: "true"}))
 // .setFooter(`${message.author.username}#${message.author.discriminator}`, message.member.user.displayAvatarURL({ dynamic: true }))
 .setImage(`https://media.discordapp.net/attachments/790836700561670145/838461806137442365/image0.gif`)
-.setTitle(`link - https://top.gg/bot/814607957349629962`)
+/// .setTitle(`link - https://top.gg/bot/814607957349629962`)
 .setAuthor(`Vote RaGif`)
 .setDescription(`
 [Click Here to Vote](https://top.gg/bot/814607957349629962)`)

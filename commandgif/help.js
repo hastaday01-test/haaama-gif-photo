@@ -31,7 +31,7 @@ const embed = new Discord.MessageEmbed()
 
 **Text Commands**
 \`eng\` - \`arab\` - \`kurd\`
-\`persian\` - \`turk\`
+\`persian\` - \`turk\` - \`rabbit\`
 
 **Music Commands**
 \`play\` -  \`skip\` - \`np\` 

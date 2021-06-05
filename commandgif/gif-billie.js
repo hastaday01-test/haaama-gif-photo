@@ -23,7 +23,7 @@ exports.conf = {
 
   guildOnly: false,
 
-  aliases: ['billie-gif','billie','billiegif','Billie'],
+  aliases: ['bille','billie','billiegif','Billie'],
 
   permLevel: 0
 

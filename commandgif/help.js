@@ -15,7 +15,7 @@ const embed = new Discord.MessageEmbed()
 .setDescription(`
 **Info Commands** (*)
 \`server\` - \`avatar\` - \`about\` 
-\`ping\` - \`inv\` - \`say\`
+\`ping\` - \`inv\` - \`say\` - \`vote\`
 
 **Moderation Commands**
 \`ban\` - \`unban\` - \`kick\` - \`clear\`

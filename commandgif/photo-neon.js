@@ -23,7 +23,7 @@ exports.conf = {
 
   guildOnly: false,
 
-  aliases: ['Pneon','neonp','pNeon','photo-neon'],
+  aliases: ['Pneon','pneon','pNeon','photo-neon'],
 
   permLevel: 0
 

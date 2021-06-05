@@ -29,9 +29,10 @@ const embed = new Discord.MessageEmbed()
 \`animal\` - \`anime\` - \`couple\`
 \`emoji\` - \`bille\` - \`Aesthetic\`
 
-**Photo Command**
+**Photos Command**
 \`Pboy\` - \`Pgirl\` - \`Panime\`
-\`Pneon\` - \`Panimal\` _ \`cuople\` 
+\`Pneon\` - \`Panimal\` - \`Pcuople\` 
+\`Psmoking\` - \`Pbillie\`
 
 **Text Commands**
 \`eng\` - \`arab\` - \`kurd\`

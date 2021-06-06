@@ -11,7 +11,7 @@ const embed = new Discord.MessageEmbed()
 .setThumbnail(message.author.avatarURL({dynamic: "true"}))
 // .setFooter(`${message.author.username}#${message.author.discriminator}`, message.member.user.displayAvatarURL({ dynamic: true }))
 .setImage(`https://media.discordapp.net/attachments/790836700561670145/838461806137442365/image0.gif`)
-.setAuthor(`Gif Help`)
+.setAuthor(`Gif Home Help`)
 .setDescription(`
 **Info Commands** (*)
 \`server\` - \`avatar\` - \`about\` 
@@ -31,7 +31,7 @@ const embed = new Discord.MessageEmbed()
 
 
 **Links**
-**[Invite](https://discord.com/api/oauth2/authorize?client_id=814607957349629962&permissions=8&scope=bot) - [Server Support](https://discord.gg/jy6zvqV2V6)** **-** [Vote](https://top.gg/bot/814607957349629962)`)
+**[Invite](https://discord.com/api/oauth2/authorize?client_id=815940940404359218&permissions=8&scope=bot) - [Server Support](https://discord.gg/eWbkSsQup2)** `)
     
 message.channel.send({embed});
 }

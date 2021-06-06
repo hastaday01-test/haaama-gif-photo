@@ -15,13 +15,8 @@ const embed = new Discord.MessageEmbed()
 .setDescription(`
 **Info Commands** (*)
 \`server\` - \`avatar\` - \`about\` 
-\`ping\` - \`inv\` - \`say\` - \`vote\`
+\`ping\` - \`inv\`
 
-**Moderation Commands**
-\`ban\` - \`unban\` - \`kick\` - \`clear\`
-\`mute\` - \`unmute\` - \`warn\`
-\`removeRole\` - \`addRole\`
-\`afk\` - \`sug\` - \`report\`
 
 **Gifs Commands**
 \`boy\` - \`girl\` - \`baby\`
@@ -33,19 +28,6 @@ const embed = new Discord.MessageEmbed()
 \`Pboy\` - \`Pgirl\` - \`Panime\`
 \`Pneon\` - \`Panimal\` - \`Pcuople\` 
 \`Psmoking\` - \`Pbillie\`
-
-**Text Commands**
-\`eng\` - \`arab\` - \`kurd\`
-\`persian\` - \`turk\` - \`rabbit\`
-
-**Music Commands**
-\`play\` -  \`skip\` - \`np\` 
-\`pasue\` - \`resume\` - \`stop\`
-\`queue\`
-
-**Econome Commands**
-\`daily\` - \`balance\` - \`send\`
-\`top\` - \`s(1-99999)\` 
 
 
 **Links**

@@ -10,7 +10,7 @@ const embed = new Discord.MessageEmbed()
 .setColor(`RANDOM`)
 .setThumbnail(message.author.avatarURL({dynamic: "true"}))
 .setTitle(`**invite Ragif**`)
-.setDescription(`[Click here](https://discord.com/api/oauth2/authorize?client_id=814607957349629962&permissions=8&scope=bot)`)
+.setDescription(`[Click here](https://discord.com/api/oauth2/authorize?client_id=815940940404359218&permissions=8&scope=bot)`)
 .setImage(`https://media.discordapp.net/attachments/790836700561670145/845115639412555796/image0.gif`)
 .setFooter(`RaGif Bot`)    
 message.channel.send({embed});

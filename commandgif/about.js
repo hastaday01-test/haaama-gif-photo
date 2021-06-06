@@ -10,7 +10,7 @@ const embed = new Discord.MessageEmbed()
 .setColor('RANDOM') 
 .setThumbnail(message.author.avatarURL({dynamic: "true"}))
 .setFooter(`${message.author.username}#${message.author.discriminator}`, message.member.user.displayAvatarURL({ dynamic: true }))
-.setAuthor(`RaGif About`, ``)
+.setAuthor(`Gif Home About`, ``)
 .setDescription(``)
 .addField('__Servers__', `\`${client.guilds.cache.size}\``, true)
 .addField('__Channels__', `\`${client.channels.cache.size}\``, true)
@@ -18,7 +18,7 @@ const embed = new Discord.MessageEmbed()
 .addField('__Bot Name__' , `\`${client.user.tag}\`` , true)
 .addField('__Bot ID__' , `\`${client.user.id}\`` , true)
 .addField('__My Ping__' , `\`${client.ws.ping}\`` , true)
-.addField('Owner Bot' , `<@640204311262920764>` , true)
+// .addField('Owner Bot' , `<@640204311262920764>` , true)
 message.channel.send({embed});
 }
 

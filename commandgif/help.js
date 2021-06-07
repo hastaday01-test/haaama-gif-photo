@@ -31,7 +31,7 @@ const embed = new Discord.MessageEmbed()
 
 
 **Links**
-**[Invite](https://discord.com/api/oauth2/authorize?client_id=815940940404359218&permissions=8&scope=bot) - [Server Support](https://discord.gg/eWbkSsQup2)** `)
+**[Invite](https://discord.com/api/oauth2/authorize?client_id=815940940404359218&permissions=8&scope=bot) - [Server Support](https://discord.gg/VWuQfQfjc9)** `)
     
 message.channel.send({embed});
 }

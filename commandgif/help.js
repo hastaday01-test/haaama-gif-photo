@@ -11,7 +11,7 @@ const embed = new Discord.MessageEmbed()
 .setThumbnail(message.author.avatarURL({dynamic: "true"}))
 // .setFooter(`${message.author.username}#${message.author.discriminator}`, message.member.user.displayAvatarURL({ dynamic: true }))
 .setImage(`https://media.discordapp.net/attachments/790836700561670145/838461806137442365/image0.gif`)
-.setAuthor(`Gif Home Help`)
+.setAuthor(`HaaaMa`)
 .setDescription(`
 **Info Commands** (*)
 \`server\` - \`avatar\` - \`about\` 
@@ -31,7 +31,7 @@ const embed = new Discord.MessageEmbed()
 
 
 **Links**
-**[Invite](https://discord.com/api/oauth2/authorize?client_id=815940940404359218&permissions=8&scope=bot) - [Server Support](https://discord.gg/VWuQfQfjc9)** `)
+**[Invite](https://discord.com/api/oauth2/authorize?client_id=815940940404359218&permissions=8&scope=bot) - [Server Support](https://discord.gg/haaama)** `)
     
 message.channel.send({embed});
 }

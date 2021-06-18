@@ -12,7 +12,7 @@ client.on('ready', async () => {
     client.appInfo = await client.fetchApplication();
   }, 600);
   
- client.user.setActivity(`*help | Gif Home`, { type:"PLAYING" })
+ client.user.setActivity(`*help | HaaaMa`, { type:"PLAYING" })
   console.log("${client.user.tag}")
 });
 
